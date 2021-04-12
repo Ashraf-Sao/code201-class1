@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title> Class 1 code 201</title>
+        <style>
+            h1{
+                background-color: lightskyblue;
+                color: cadetblue
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <img src = "https://www.logodesign.net/images/nature-logo.png" alt = "">
+            <nav>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </nav>
+
+        </header>
+        <main>
+            <h1>
+                WELCOME TO CLASS 1 LAB
+            </h1>
+
+            
+            <p onclick = "myFunction1()" id = "id1" style = "color: skyblue ; background-color: #0000FF;">what is your name?</p>
+            <p onclick = "myFunction2()" id = "id2" style = "color:#000000 ; background-color: red;">what is your age?</p>
+            <p onclick = "myFunction3()" id = "id3" style = "color: yellowgreen ; background-color: #d9d9d9;">what is your field of study?</p>
+            <p onclick = "myFunction4()" id = "id4" style = "background-color: violet; color: white;">Enter your gpa?</p>
+            <br><br>
+            <hr>
+
+            <ul>
+                <li id = "name1" style = "background-color: gray; color: pink;">rawan</li>
+                <li id = "name2" style = "background-color: darkgray; color: palevioletred;">ahmad</li>
+                <li id = "name3" style = "background-color: lightgray; color: lightpink;">salma</li>
+                <li id = "name4" style = "background-color: lightslategrey; color:magenta">khaled</li>
+                
+            </ul>
+
+        </main>
+        <footer></footer>
+
+        <script>
+            let var1 = prompt("Enter your name please:", "Rawan"); 
+            alert("Your Name: "+var1);
+            console.log("Your name is: "+var1);
+            let var2 = prompt("Enter your age", "23"); 
+            alert("Your age: "+var2);
+            console.log("Your age: "+var2);
+            let var3 = prompt("Enter your field of study", "Software Engineering");
+            alert("Your field of study: "+var3);
+            console.log("Your field of study: "+var3);
+            let var4 = prompt("Enter your gpa", "3.03");
+            alert("Your gpa: "+var4);
+            console.log("Your gpa: "+var4);
+
+            alert("Hello "+ var1 + " in this page, your age " + var2 + ", your field of study " + var3 + ", and your gpa " + var4);
+
+
+            document.writeln("Your name: "+var1+"<br>");
+            document.writeln("Your age: "+var2+"<br>");
+            document.writeln("Your field of study: "+var3+"<br>");
+            document.writeln("Your gpa: "+var4+"<br>");
+
+
+            function myFunction1() {
+                document.getElementById("id1").innerHTML = "Your Name Rawan";
+             }
+
+             function myFunction2() {
+                document.getElementById("id2").innerHTML = "Your Age 23";
+             }
+             function myFunction3() {
+                document.getElementById("id3").innerHTML = "Your Field Of Study Software Engineering";
+             }
+             function myFunction4() {
+                 document.getElementById("id4").innerHTML = "Your JPA 3.03";
+            }
+            
+
+
+            var user = prompt("Enter name: ");
+            user = "salwa";
+
+            function print(name){
+                console.log(user);
+                document.write(user);
+            }
+
+            print(user);
+
+
+            
+
+
+
+
+
+
+
+
+
+        </script>
+    </body>
+</html>

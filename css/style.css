@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+
+
+#img1{
+    width: 140px;
+    display: block;
+    margin: 10px auto;
+}
+
+header{
+    text-align: center;
+}
+
+body{
+    font-family: 'Caudex', serif;
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+#dv{
+    float: right;
+    top: 0;
+}
+
+a{
+    text-decoration: none;
+}
+#i1{
+    float: left;
+    margin-right: 30px;
+    
+}
+
+#i2{
+    float: right;
+}
+
+ul{
+    list-style-type: square;
+}
+
+
+a:hover {
+    background-color: lightblue;
+    color: white;
+  }
+
+  #c1 li:nth-child(even) {
+    background-color: lightblue;
+    background-size:cover;
+    color: #fff;
+  }
+
+  #c2 li:nth-child(even) {
+    background-color: lightblue;
+    background-size: contain;
+    color: #fff;
+    
+  }
+
+  #c2{
+      padding-bottom: 40px;
+  }
+   
+  #sec{
+      margin-top: 170px;
+      margin-bottom: 120px;
+  }
+  
+  #sec1{
+      float: right;
+      width: fit-content;
+  }
+
+  #sec2{
+      width: fit-content;
+      margin-right: 50px;
+      margin-bottom: 120px;
+
+  }
+
+  #sec3{
+      display: block;
+      text-align:left; 
+      margin-bottom: 120px;
+  }
+  
+  footer{
+      text-align: center;
+  }
+  
