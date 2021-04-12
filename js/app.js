@@ -30,7 +30,7 @@ let n5 =  prompt('Is Iy Favorite Hobby Reading?');
 let n6 =  prompt('is My Favorite Animal Dog');
 
 n1 = n1.toUpperCase();
-n2 = parseInt(n2);
+n2 = n2.toUpperCase();
 n3 = n3.toUpperCase();
 n4 = n4.toUpperCase();
 n5 = n5.toUpperCase();
@@ -50,12 +50,12 @@ switch(n1){
 
 switch(n2){
     case "NO":
-        alert('Thats Correct, You Guess That I Am Not Student');
+        alert('Thats Correct, You Guess That I Am Not Student Is True');
         console.log('Thats Correct You Guess The Answer Which Is: I Am Not Student');
         break;
 
     default:
-        alert('Your Guess About If I Am Not Currently A Student Is Correct!');
+        alert('Your Guess About If I Am Not Currently A Student Is Not Correct!');
         break;    
 }
 
