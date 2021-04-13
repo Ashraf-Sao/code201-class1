@@ -1,4 +1,3 @@
-
 "use strict";
 let result = 0;
 let welcome;  
@@ -56,10 +55,34 @@ alert('You Have Exceeded The Number Of Times Available To Enter The Correct Numb
 
 
 
-let r = 1;
+
+
+
+//let MyArr = ['phone','tv','lapto','watch','airpods','ipad'];
+
+/*for (let i1 = 1; i1 <= 6; i1++){
+    let n7 = prompt('Please Enter The Smart Devices That You Have, HINT Use Smart Phone, Smart Tv, Laptob, Smart Watch, Airpods, Ipad, Or Any Other Devices').toLowerCase();
+    for (let i2 = 0; i2 < MyArr.length; i2++){
+        if(n7 === MyArr[i2].toLowerCase()){
+        prompt('Your Guess Is True, Try Another One');
+        alert('Well Done, There Are Correct Answers Which Are '+'<p>'+MyArr[i2]+'</p>');
+    }
+    else{
+        prompt('Your Guess Is Not True! Try Again');
+    }
+}}
+
+alert('You Have Exceeded The Number Of Times Available To Enter The Answer');
+*/
+
+
+
+
+let k = 1;
 let MyArr = ['phone', 'tv', 'laptob', 'watch', 'airpods', 'ipad'];
-while (r <= 6) {
-    let n7 = prompt('Please Enter The Smart Devices That You Have, HINT Use phone, tv, laptob, watch, airpods, ipad, Or Any Other Devices').toLowerCase();
+// eslint-disable-next-line no-unused-vars
+while (k <= 6) {
+    let n7 = prompt('Please Enter The Smart Devices That You Have, HINT Use Smart Phone, Smart Tv, Laptob, Smart Watch, Airpods, Ipad, Or Any Other Devices').toLowerCase();
   for (let j = 0; j < MyArr.length; j++) {
     if (n7.toLowerCase() === MyArr[j].toLowerCase()) {
         prompt('Your Guess Is True, Try Another One');
@@ -68,7 +91,7 @@ while (r <= 6) {
       result++
       break;
     }
-  }r++;
+  }k++;
   
 }
 //lab3 results of te total correct answers//
@@ -129,7 +152,7 @@ switch(n4){
 switch(n5){
     case "YES":
         alert('Thats Correct, Your Guess Is Right About My Favorite Animal');
-        console.log('Thats Correct, You Guess What Is My Favorite Animal which is: '+n5);
+        console.log('Thats Correct, You Guess What Is My Favorite Animal which is: '+n6);
         result++;
         break;
 
@@ -141,9 +164,6 @@ switch(n5){
 
 alert('THANKS FOR ANSWERING THE QUESTIONS I APPRECIATE THAT, NOW I WILL ASK YOU SOME QUESTIONS ABOUT YOUR SELF.');
 
-
-
-
 let p1 = prompt('What Is Your Name?');
 let p2 =  prompt('What Is Your Favorite Sport?');
 let p3 =  prompt('What Is Your Favorite Sports Team?');
@@ -154,7 +174,7 @@ alert('HELLO ' + p1 + ' THANKS AGAIN FOR ANSWERING THE QUESTIONS, I APPRECIATE T
 
 
 if (result > 4) {
-    alert('Thank You ' + p1 + ' The Result Equal ' + result + ',your information about me very good');
+    alert('Thank You ' + p1 + 'The Result Equal ' + result + ',your information about me very good');
   }
   else {
     alert('Thank You ' + p1 + 'For Trying The Result Equal ' + result + ',you dont know me very well');
