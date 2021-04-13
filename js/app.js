@@ -39,7 +39,7 @@ n6 = n6.toUpperCase();
 switch(n1){
     case "YES":
         alert('Thats Correct You Guess My Name');
-        console.log('Thats Correct You Guess My Name which is: '+'RAWAN');
+        //console.log('Thats Correct You Guess My Name which is: '+'RAWAN');
         break;
 
     default:
@@ -51,7 +51,7 @@ switch(n1){
 switch(n2){
     case "NO":
         alert('Thats Correct, You Guess That I Am Not Student Is True');
-        console.log('Thats Correct You Guess The Answer Which Is: I Am Not Student');
+        //console.log('Thats Correct You Guess The Answer Which Is: I Am Not Student');
         break;
 
     default:
@@ -63,7 +63,7 @@ switch(n2){
 switch(n3){
     case "NO":
         alert('Thats Correct, You Guess My Favorite Color');
-        console.log('Thats Correct, You Guess My Favorite Color which is: '+n3);
+        //console.log('Thats Correct, You Guess My Favorite Color which is: '+n3);
         break;
 
     default:
@@ -74,7 +74,7 @@ switch(n3){
 switch(n4){
     case "YES":
         alert('Thats Correct, You Guess What Is My Passion');
-        console.log('Thats Correct, You Guess What Is My Passion which is: '+n4);
+        //console.log('Thats Correct, You Guess What Is My Passion which is: '+n4);
         break;
 
     default:
@@ -85,7 +85,7 @@ switch(n4){
 switch(n5){
     case "YES":
         alert('Thats Correct, You Guess What Is My Favorite Hoppy');
-        console.log('Thats Correct, You Guess What Is My Favorite Hoppy which is: '+n1);
+        //console.log('Thats Correct, You Guess What Is My Favorite Hoppy which is: '+n1);
         break;
 
     default:
@@ -96,7 +96,7 @@ switch(n5){
 switch(n6){
     case "YES":
         alert('Thats Correct, You Guess My Favorite Animal');
-        console.log('Thats Correct, You Guess What Is My Favorite Animal which is: '+n6);
+        //console.log('Thats Correct, You Guess What Is My Favorite Animal which is: '+n6);
         break;
 
     default:
