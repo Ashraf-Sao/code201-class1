@@ -21,7 +21,7 @@ let welcome;
     }  
 
 
-alert(welcome+' WELCOME TO MY PAGE (ABOUT ME), YOU SHOULD ANSWER SOME QUESTION TO GET IN, THERE IS A HINT FOR THE ANSWER YOU CAN CHANGE IT, AND AFTER THAT I WILL ASK ALSO SOME QUESTION ABOUT YOU TO GET KNOW EACH ANOTHER.');
+alert(welcome+' WELCOME TO MY PAGE (ABOUT ME), YOU SHOULD ANSWER SOME QUESTION TO GET IN, THERE IS A HINT FOR THE ANSWER YOU CAN CHANGE IT, AND AFTER THAT I WILL ASK ALSO SOME QUESTION ABOUT YOU TO GET KNOW EACH OTHER.');
 
 let n1 = prompt('Are My Name Rawan?').toUpperCase();
 let n2 =  prompt('Am I Currently Student?').toUpperCase();
@@ -32,9 +32,10 @@ let n5 =  prompt('is My Favorite Animal Dog').toUpperCase();
 let number = 100;
 let counter = 0;
 
-for (let i = 1; i<=4; i++){
-    let n6 = prompt('Enter Any Nmber Please');
 
+
+for (let i = 1; i<=4; i++){
+  let n6 = prompt('Enter Any Nmber Please');
     if( parseInt(n6) > number ){
         alert('Too High');
     }
@@ -51,29 +52,30 @@ for (let i = 1; i<=4; i++){
         break;   
     }
     counter++;
+    
 }
-alert('You Have Exceeded The Number Of Times Available To Enter The Correct Number Which Is '+counter+', The Correct Number Is 100');
+alert('You Have Exceeded The Number Of Times Available To Enter The Correct Number Which Is '+counter+', And The Correct Number Is 100');
 
 
 
 let i = 1;
 let MyArr = ['phone', 'tv', 'laptob', 'watch', 'airpods', 'ipad'];
 while (i <= 6) {
-    let n7 = prompt('Please Enter The Smart Devices That You Have, HINT Use phone, tv, laptob, watch, airpods, ipad, Or Any Other Devices').toLowerCase();
+  let n7 = prompt('Please Enter The Smart Devices That You Have, HINT Use phone, tv, laptob, watch, airpods, ipad, Or Any Other Devices').toLowerCase();
   for (let i1 = 0; i1 < MyArr.length; i1++) {
-    if (n7.toLowerCase() === MyArr[i].toLowerCase()) {
-        prompt('Your Guess Is True, Try Another One');
-        alert('Well Done, There Are Correct Answers Which Are '+'<p>'+MyArr[i2]+'</p>');
-      console.log('you are correct' + MyArr);
+    if (n7 === MyArr[i1]) {
+        alert('Your Guess Is True, Try Another One');
+        alert('Well Done, Correct Answer Which is '+ MyArr[i1] +'\n');
+      console.log('Your Answer About The devices is correct and its the same of mine which they are: ' + MyArr[i1]);
       result++;
-    }
-    else{
-      prompt('Please Enter A Device');
-    }
-  }i++;
-  
-}
-//lab3 results of te total correct answers//
+      i = 9;
+      break;
+    }}
+  if(i <= 6){
+    alert('You Entered A Wrong Answer');
+    }  
+    i++;}
+    alert('Your Result Equal '+result);
 
 
 
