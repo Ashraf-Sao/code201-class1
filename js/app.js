@@ -56,19 +56,21 @@ alert('You Have Exceeded The Number Of Times Available To Enter The Correct Numb
 
 
 
-let r = 1;
+let i = 1;
 let MyArr = ['phone', 'tv', 'laptob', 'watch', 'airpods', 'ipad'];
-while (r <= 6) {
+while (i <= 6) {
     let n7 = prompt('Please Enter The Smart Devices That You Have, HINT Use phone, tv, laptob, watch, airpods, ipad, Or Any Other Devices').toLowerCase();
-  for (let j = 0; j < MyArr.length; j++) {
-    if (n7.toLowerCase() === MyArr[j].toLowerCase()) {
+  for (let i1 = 0; i1 < MyArr.length; i1++) {
+    if (n7.toLowerCase() === MyArr[i].toLowerCase()) {
         prompt('Your Guess Is True, Try Another One');
         alert('Well Done, There Are Correct Answers Which Are '+'<p>'+MyArr[i2]+'</p>');
       console.log('you are correct' + MyArr);
-      result++
-      break;
+      result++;
     }
-  }r++;
+    else{
+      prompt('Please Enter A Device');
+    }
+  }i++;
   
 }
 //lab3 results of te total correct answers//
